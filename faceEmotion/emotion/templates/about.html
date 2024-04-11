@@ -1,0 +1,27 @@
+ 
+
+ 
+ <!----------------- navbar adding main templates ---------------->
+ {% extends 'base.html' %}
+
+ {% load static %}
+
+<!------------------about body start here ----------------------->
+
+
+{% block content1 %}
+<div class="container mt-5 mb-5">
+<div class="row">
+        <div class="col"><a class="btn btn-primary" href="{% url 'happy' %}" role="button">Happy</a></div>
+        <div class="col"><a class="btn btn-primary" href="{% url 'sad' %}" role="button">Sad</a></div>
+        <div class="col"><a class="btn btn-primary" href="{% url 'surprise' %}" role="button">Surprise</a></div>
+        <div class="col"><a class="btn btn-primary" href="{% url 'disgust' %}" role="button">Disgust</a></div>
+        <div class="col"><a class="btn btn-primary" href="{% url 'neutral' %}" role="button">Neutral</a></div>
+        <div class="col"><a class="btn btn-primary" href="{% url 'angry' %}" role="button">Angry</a></div>
+        <div class="col"><a class="btn btn-primary" href="{% url 'fear' %}" role="button">Fear</a></div>
+</div>
+</div>
+
+{%endblock%}
+
+ 

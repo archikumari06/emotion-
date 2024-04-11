@@ -1,0 +1,73 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block css %}
+<style>
+    .sad-heading {
+        background: #f1fcfd;
+        color: aqua;
+        height: 200px;
+    }
+
+    .text-center {
+        padding-top: 5%;
+    }
+</style>
+{%endblock%}
+
+
+{% block content1 %}
+
+<div class="sad mt-3">
+    <div class="sad-heading">
+        <h1 class="text-center">(Sad Emotions You should Know)</h1>
+    </div>
+
+    <div class="container">
+        <div class="content1 mt-4">
+            Sadness is one of the seven universal emotions experienced by everyone around the world resulting from the
+            loss of someone or something important. What causes us sadness varies greatly based on personal and cultural
+            notions of loss. While sadness is often considered a “negative” emotion, it serves an important role in
+            signaling a need to receive help or comfort.
+        </div>
+        <div class="signOfSadness mt-3">
+            <h1>What makes us sad</h1>
+            <p class="mt-2">The universal trigger for sadness is the loss of a valued person or object, though this can
+                vary greatly between individuals based on their personal definitions of value and loss.</p>
+            <p class="mt-2">Some key signs of sadness include:</p>
+
+            <p class="mt-2">1.Rejection by a friend or lover <br><br>
+                2.Endings and goodbyes <br><br>
+                3.Sickness or death of a loved one <br><br>
+                4.The loss of some aspect of identity (e.g., during times of transition at home, work, life stages)
+                <br><br>
+                5.Being disappointed by an unexpected outcome (e.g., not receiving a raise at work when you expected it)
+                <br><br>
+            </p>
+        </div>
+        <div class="functionOfSadness mt-3">
+            <h1>The function of sadness</h1><br>
+            <p class="mt-2">
+                The universal function of sadness is to, in some way, signal for help. This can be a signal to others
+                saying that we need comforting, or to ourselves to take some time and recoup from our loss.
+            </p>
+            <h3>Responding to sadness in ourselves</h3>
+            <p>Some people can derive pleasure from their sadness and may even seek out experiences that evoke sadness
+                for a cathartic effect. Others, however, have an extreme aversion to sadness and may go to great lengths
+                to avoid situations which they believe may trigger the emotion. This may even cause some to avoid
+                attachment or commitment since it could leave them vulnerable to loss and sadness.</p>
+            <h3>Responding to sadness in others</h3>
+            <p>Knowing how someone is feeling doesn’t necessarily mean we want to acknowledge it -it depends on the
+                context and the relationship. In some situations, simply acknowledging that you are sorry for another
+                person’s loss might be helpful, whereas for others it may not be.
+
+                Spotting sadness when it is subtle tells you that something important is happening or has happened, that
+                it involves loss, and that this person probably needs some form of comforting. The expression itself,
+                however, doesn’t tell you whether you are the right person to give that comforting, or if this is the
+                right time to offer it.</p>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
